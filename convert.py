@@ -7,6 +7,7 @@ for xlsx in glob.glob("*.xlsx"):
     print(f"Converting {xlsx} ...")
     df = pd.read_excel(xlsx, header=3)
     for col in df.columns:
+        if df[col].dtype == "object":
             df[col] = df[col].astype("string")
     df.to_parquet(name + ".parquet", compression="zstd")
     print(f"  Done: {len(df):,} rows -> {name}.parquet")
