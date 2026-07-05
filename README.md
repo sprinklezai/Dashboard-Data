@@ -1,4 +1,8 @@
-sha256:f59a3b047a1a0a6b885cbfa4913c3065ddd89bb3969f8f384093066b7734630b
-sha256:e6395b7a298959e47780dbf2aed0afa90d508ed5d0092ca7e42b63b100899950
-sha256:ab5a340f810761c6b6ce4521bd7f79073bf7c41cf639020eb8954d5831f3806a
-sha256:2ec7e2c96e614fb191f1afe6299337f339961abad90ceffa1ff5a8e5ec8dcaba
+# Sales Data Project
+
+## Data File
+
+The Excel file is too large to store in this repository.
+Download it from the release page:
+
+[Download sales_data.xlsx (1 GB)](https://github.com/YOUR-USERNAME/YOUR-REPO/releases)
